@@ -8,7 +8,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Application {
 
 	private static final String TITLE = "Forest Gump";
-
+ 
+        // Added a comment.
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml") ;
 		// RentalService rentalService = new RentalService(new KioskLocator());
